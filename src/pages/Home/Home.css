@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.inner-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  width: 80%;
+  margin-top: 50px;
+}
+
+.main-text {
+  font-size: 70px;
+  line-height: 90px;
+  font-weight: 900;
+  text-align: center;
+  margin: 0;
+}
+
+.sub-texts {
+  display: flex;
+  gap: 10px;
+}
+
+.sub-texts > p {
+  border-right: 1px solid #fff;
+  padding-right: 10px;
+}
+
+.sub-texts > p:nth-child(3) {
+  border: none;
+}
+
+.call-to-action {
+  margin-top: 30px;
+}
+
+.get-started-btn {
+  border: none;
+  background-color: #FF2359;
+  color: #fff;
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  padding: 12px 20px;
+  font-weight: 700;
+}

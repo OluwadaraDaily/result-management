@@ -2,6 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border: 1px solid #aaa;
 }
 .logo {
   /* background-color: red; */
@@ -14,4 +15,14 @@ ul {
   display: flex;
   gap: 2rem;
   margin-right: 5rem;
+  height: 100%;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+.link {
+  border: 1px solid #fff;
+  padding: 20px;
+  cursor: pointer;
 }
